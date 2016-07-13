@@ -1,4 +1,4 @@
-# Sketchpad - Project: Javascript/jQuery - The Ordin Project
+# Sketchpad - The Ordin Project
 This is my solution to the Sketchpad project, with all the standard requirement and the optional.
 
 # Demo
