@@ -13,6 +13,7 @@ function createSketchpad(){
 	}
 }	
 
+//change color
 function changeColor() {
 		createSketchpad();
 		//change the box size and color
