@@ -1,26 +1,3 @@
-$(document).ready(function(){
-	//clear function
-    $("#clear").click(function(){
-        $(".box").remove();
-		color = 1;
-		changeColor();
-    });	
-	
-	//random color
-    $("#randomColor").click(function(){
-        $(".box").remove();
-		color = 2;
-		changeColor();
-    });	
-	
-	//transparant
-    $("#transparant").click(function(){
-        $(".box").remove();
-		color = 3;
-		changeColor();
-    });	
-});
-
 //create normal sketchpad
 function createSketchpad(){
 	sketchpadGrid = prompt('How large do you want your grid? Select from 1 to 64');
@@ -35,9 +12,6 @@ function createSketchpad(){
 		alert("Please choose a number beetween 1 and 64");
 	}
 }	
-
-color = 1;
-changeColor();
 
 function changeColor() {
 		createSketchpad();
@@ -61,3 +35,29 @@ function changeColor() {
 		}
 	});
 }
+
+color = 1;
+changeColor();
+
+$(document).ready(function(){
+    //clear function
+    $("#clear").click(function(){
+        $(".box").remove();
+		color = 1;
+		changeColor();
+    });	
+    
+    //random color
+    $("#randomColor").click(function(){
+        $(".box").remove();
+		color = 2;
+		changeColor();
+    });	
+	
+    //transparant
+    $("#transparant").click(function(){
+        $(".box").remove();
+		color = 3;
+		changeColor();
+    });	
+});
