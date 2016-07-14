@@ -1,4 +1,4 @@
-//create normal sketchpad
+//create sketchpad
 function createSketchpad(){
 	sketchpadGrid = prompt('How large do you want your grid? Select from 1 to 64');
 	if(sketchpadGrid <= 64){
