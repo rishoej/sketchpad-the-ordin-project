@@ -1,4 +1,6 @@
 # Sketchpad - The Ordin Project
+![](https://github.com/rishoej/src/blob/master/gifs/sketchpad-the-ordin-project.gif)
+
 This is my solution to the Sketchpad project, with all the standard requirement and the optional.
 
 # Demo
